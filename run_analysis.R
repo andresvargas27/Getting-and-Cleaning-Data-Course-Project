@@ -107,5 +107,6 @@ colnames(tidy_data) <- colnames
 
 #write output
 write_csv(tidy_data,"/Users/andres/Desktop/Data_Science_Specialization/Getting_and_cleaning_data/Week 4/tidy_data_set.csv")
+write.table(tidy_data,"/Users/andres/Desktop/Data_Science_Specialization/Getting_and_cleaning_data/Week 4/tidy_data_set.txt", row.names = FALSE)
 
 
