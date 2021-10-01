@@ -22,4 +22,4 @@ Files contained in this repository:
                        
     *Please note that the order of the steps doesn't exactly coincide with the sequence provided in the course: the activities are named before extracting the mean and standard deviation for each measurement. And the labeling of the data set with descriptive variable names is carried out after creating the independent tidy data set with the average of each variable for each activity and subject. This leads to the same output. 
     
- - tidy_data.csv: the generated tidy data set 
+ - tidy_data.txt: the generated tidy data set 
