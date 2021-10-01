@@ -13,13 +13,13 @@ Files contained in this repository:
 
                     2. Uses descriptive activity names to name the activities in the data set
 
-                    3. Appropriately labels the data set with descriptive variable names. 
+                    3. Extracts only the measurements on the mean and standard deviation for each measurement 
 
-                    4. Extracts only the measurements on the mean and standard deviation for each measurement. 
+                    4. From the data set in step 3, creates a second, independent tidy data set with the average of each variable 
+                       for each activity and each subject. 
 
-                    5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable 
-                       for each activity and each subject.
-    
-    *Please note that the order of the steps doesn't exactly coincide with the formulation provided in the course: before extracting the measurements on the mean        and the standard deviation, all the labeling tasks were done
+                    5. Appropriately labels the data set with descriptive variable names.
+                       
+    *Please note that the order of the steps doesn't exactly coincide with the sequence provided in the course: the activities are named before extracting the mean and standard deviation for each measurement. And the labeling of the data set with descriptive variable names is carried out after creating the independent tidy data set with the average of each variable for each activity and subject. This leads to the same output. 
     
  - tidy_data.txt: the generated tidy data set 
